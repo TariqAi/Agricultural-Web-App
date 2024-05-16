@@ -15,13 +15,13 @@ def convert_to_float(value):
         return np.nan
 
 # getting the input data from the user and converting to numeric values
-N = convert_to_float(st.text_input('N'))
-P = convert_to_float(st.text_input('P'))
-K = convert_to_float(st.text_input('K'))
-temperature = convert_to_float(st.text_input('Temperature'))
-humidity = convert_to_float(st.text_input('Humidity'))
-ph = convert_to_float(st.text_input('Ph'))
-rainfall = convert_to_float(st.text_input('Rainfall'))
+N = convert_to_float(st.text_input('Nitrogen content in soil'))
+P = convert_to_float(st.text_input('Phosphorous content in soil'))
+K = convert_to_float(st.text_input('Potassium content in soil'))
+temperature = convert_to_float(st.text_input('Temperature in celsius'))
+humidity = convert_to_float(st.text_input('Humidity in %'))
+ph = convert_to_float(st.text_input('Ph value of the soil'))
+rainfall = convert_to_float(st.text_input('Rainfall in mm'))
 
 # code for Prediction
 diagnosis = ''
